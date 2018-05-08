@@ -22,3 +22,4 @@ RUN cp -r /jenkins-practice/dist/* /var/www/html/
 EXPOSE 80
 
 # start nginx with daemon mode off
+CMD ["nginx", "-g", "daemon off;"]
